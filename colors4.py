@@ -61,4 +61,5 @@ if __name__ == '__main__':
     f.colorbar(pcm, ax=ax1, shrink=0.5)
     pcm = ax2.matshow(out, cmap=plt.get_cmap('jet'))
     f.colorbar(pcm, ax=ax2, shrink=0.5)
+    plt.savefig('4colors.png')
     plt.show()
