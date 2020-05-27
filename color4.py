@@ -59,7 +59,7 @@ if __name__ == '__main__':
     f, (ax1, ax2) = plt.subplots(1, 2, sharey=True, sharex=True)
     pcm = ax1.matshow(labels)
     f.colorbar(pcm, ax=ax1, shrink=0.5)
-    pcm = ax2.matshow(out, cmap=plt.get_cmap('jet'))
+    pcm = ax2.matshow(out, cmap=plt.get_cmap('Accent'))
     f.colorbar(pcm, ax=ax2, shrink=0.5)
     plt.savefig('4colors.png')
     plt.show()
