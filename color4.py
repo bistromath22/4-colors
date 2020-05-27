@@ -11,7 +11,7 @@ import scipy.ndimage
 import matplotlib.pyplot as plt
 
 
-def generate_input(shape=(50, 50), ncenters=100):
+def generate_input(shape=(100, 100), ncenters=100):
     """
     Voronoi tesselation on a 2D array
     """
